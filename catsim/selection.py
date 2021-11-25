@@ -78,12 +78,12 @@ class MaxInfoSelector(Selector):
             ]
 
         # return the item with maximum information from the ones available
-        if len(valid_indexes_low_r) > 0:
-            selected_item = valid_indexes_low_r[0]
-        else:
-            selected_item = valid_indexes[0]
+        # if len(valid_indexes_low_r) > 0:
+        #     selected_item = valid_indexes_low_r[0]
+        # else:
+        #     selected_item = valid_indexes[0]
 
-        return selected_item
+        return valid_indexes
 
 
 class UrrySelector(Selector):
